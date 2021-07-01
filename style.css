@@ -1,7 +1,22 @@
+body {
+    font-family: poppins;
+}
+
+.main {
+    max-width: 1024px;
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.03);
+    background-color: #fff;
+    margin: 0px auto;
 }
 
 .menu img {
@@ -14,9 +29,152 @@
 }
 
 .menuItem a {
-    padding-right: 30px;
+    margin-left: 30px;
     color: inherit;
     font-weight: 550;
+    text-decoration: none;
 }
 
-.menuItem a :hover {}
+.menuItem a:hover {
+    border-bottom-style: solid;
+    border-bottom-color: #2d6cdf;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px 0px 20px;
+}
+
+.leftbox {
+    width: 40%;
+    margin-top: 120px;
+}
+
+.leftbox h1 {
+    font-size: 70px;
+    margin: 0.01px 0px 15px 0px;
+    line-height: 85px;
+    color: #775ada;
+}
+
+.messengertext {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.emailbox {
+    background: rgba(0, 0, 0, .04);
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 1);
+    display: block;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 19px;
+    height: 36px;
+    margin-bottom: 12px;
+    padding: 8px 16px;
+}
+
+.passwordbox {
+    background: rgba(0, 0, 0, .04);
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 1);
+    display: block;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 19px;
+    height: 36px;
+    margin-bottom: 30px;
+    padding: 8px 16px;
+}
+
+.login {
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0px 20px 0px 0px;
+    font-weight: 800;
+    cursor: pointer;
+    background-color: #3d5af1;
+    color: #fff;
+    border: none;
+}
+
+.login:hover {
+    border-bottom-style: solid;
+    border-bottom-color: #07030c;
+}
+
+.forgot {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.Check {
+    padding: 20px 0px 40px 0px;
+    width: 80%;
+}
+
+.signin {
+    font-size: 15px;
+}
+
+.appStore {
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.microsoftApp {
+    width: 120px;
+    height: 45px;
+    margin-bottom: 27px;
+}
+
+.rightbox img {
+    width: 100%;
+    width: 600px;
+    height: 600px;
+    margin: 110px 0px 0px 0px;
+}
+
+.Footer {
+    margin-bottom: 30px;
+}
+
+.foottext {
+    padding-left: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    padding-right: 70px;
+}
+
+.data {
+    font-size: 13px;
+    font-weight: 600;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+.term {
+    font-size: 13px;
+    font-weight: 600;
+    padding-right: 60px;
+    cursor: pointer;
+}
+
+.Us {
+    text-decoration: none;
+    padding: 0px;
+}
+
+.Us:hover {
+    border-bottom-style: solid;
+}
+
+.faceb {
+    padding-left: 50px;
+}
