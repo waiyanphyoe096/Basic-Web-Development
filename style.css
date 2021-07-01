@@ -1,0 +1,22 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu img {
+    width: 40px;
+    margin: 20px 0px 0px 30px;
+}
+
+.menuItem {
+    margin: 0px 40px 0px 0px;
+}
+
+.menuItem a {
+    padding-right: 30px;
+    color: inherit;
+    font-weight: 550;
+}
+
+.menuItem a :hover {}
